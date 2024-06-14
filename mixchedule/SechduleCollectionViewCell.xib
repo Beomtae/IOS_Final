@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SechduleCollectionViewCell" id="gTV-IL-0wX" customClass="SechduleCollectionViewCell" customModule="mixchedule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="476" height="122"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="476" height="122"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xha-rC-cFn">
+                        <rect key="frame" x="0.0" y="0.0" width="476" height="122"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AdW-gk-8mb">
+                                <rect key="frame" x="15" y="14.999999999999998" width="213.66666666666666" height="26.333333333333329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목 : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFI-Y7-y7o">
+                                        <rect key="frame" x="0.0" y="0.0" width="53.666666666666664" height="26.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS 프로젝트 완성" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGz-xe-R3v">
+                                        <rect key="frame" x="53.666666666666686" y="0.0" width="160" height="26.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="omj-7H-tbC">
+                                <rect key="frame" x="15" y="51.333333333333336" width="175" height="18.000000000000007"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간 : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt5-ca-fOo">
+                                        <rect key="frame" x="0.0" y="0.0" width="38.333333333333336" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일정 시간 : 8시 ~ 10시" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGd-GA-nRH">
+                                        <rect key="frame" x="38.333333333333329" y="0.0" width="136.66666666666669" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UP5-vR-Udq">
+                                <rect key="frame" x="15" y="79.333333333333329" width="90.333333333333329" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="작성자 : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXK-PE-KP2">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="홍길동" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kO2-cx-mSr">
+                                        <rect key="frame" x="51.333333333333329" y="0.0" width="39" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="omj-7H-tbC" firstAttribute="top" secondItem="AdW-gk-8mb" secondAttribute="bottom" constant="10" id="4Ik-cA-srV"/>
+                            <constraint firstItem="omj-7H-tbC" firstAttribute="leading" secondItem="hFI-Y7-y7o" secondAttribute="leading" id="6xe-ha-RRS"/>
+                            <constraint firstItem="UP5-vR-Udq" firstAttribute="top" secondItem="omj-7H-tbC" secondAttribute="bottom" constant="10" id="XuQ-ha-n5t"/>
+                            <constraint firstItem="AdW-gk-8mb" firstAttribute="top" secondItem="Xha-rC-cFn" secondAttribute="top" constant="15" id="b97-24-F43"/>
+                            <constraint firstItem="AdW-gk-8mb" firstAttribute="leading" secondItem="Xha-rC-cFn" secondAttribute="leading" constant="15" id="c3c-yI-LpU"/>
+                            <constraint firstItem="UP5-vR-Udq" firstAttribute="leading" secondItem="Yt5-ca-fOo" secondAttribute="leading" id="ygd-Mo-7z8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Xha-rC-cFn" secondAttribute="bottom" id="4bc-gS-IvF"/>
+                <constraint firstAttribute="trailing" secondItem="Xha-rC-cFn" secondAttribute="trailing" id="Z60-UM-2vk"/>
+                <constraint firstItem="Xha-rC-cFn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pPM-e3-Gut"/>
+                <constraint firstItem="Xha-rC-cFn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wQt-hS-kYx"/>
+            </constraints>
+            <size key="customSize" width="476" height="122"/>
+            <connections>
+                <outlet property="postedUsername" destination="kO2-cx-mSr" id="f3w-cN-InN"/>
+                <outlet property="scheduleNameLabel" destination="NGz-xe-R3v" id="RxC-V5-Hg7"/>
+                <outlet property="scheduleTimeLabel" destination="KGd-GA-nRH" id="dqa-Sc-I8l"/>
+            </connections>
+            <point key="canvasLocation" x="-41" y="4"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
